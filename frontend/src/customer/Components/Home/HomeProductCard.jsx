@@ -1,7 +1,8 @@
 import React from "react";
 
 import { useNavigate } from "react-router-dom";
-
+/*This page redirect when user click on the any mens item from home screen 
+This mens items are showed as sliding below main carousel */
 const HomeProductCard = ({ product }) => {
   const navigate = useNavigate();
 

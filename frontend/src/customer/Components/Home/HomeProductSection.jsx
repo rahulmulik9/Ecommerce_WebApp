@@ -7,11 +7,13 @@ import { useState } from "react";
 
 const HomeProductSection = ({ section, data }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-
+//calculation for which image index is at one position in slides
   const slidePrev = () => setActiveIndex(activeIndex - 1);
   const slideNext = () => setActiveIndex(activeIndex + 1);
   const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
+
+/*This is done to optimise the images as per the screen size  */
   const responsive = {
     0: {
       items: 2,
@@ -26,7 +28,11 @@ const HomeProductSection = ({ section, data }) => {
       itemsFit: "contain",
     },
   };
-  //data has been sent to child Homeproduct
+
+  /*data has been sent to child Homeproduct
+  Data is coming from HomePage.jsx , only take first 10 items
+  Each item will be send to HomeProductCard*/
+
   const items = data?.slice(0, 10).map((item) => (
     <div className="">
       {" "}

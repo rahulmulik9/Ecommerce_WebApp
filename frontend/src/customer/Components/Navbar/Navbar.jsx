@@ -14,7 +14,7 @@ function Navbar() {
       <nav className="bg-blue-700 text-white border-b border-gray-200 lg:px-20 px-2">
         <div className="mx-auto px-4">
           <div className="flex justify-between items-center">
-            {/* Logo */}
+            {/* Logo section */}
             <Link to="/" className="flex items-center py-6">
               <img
                 src="https://res.cloudinary.com/ddkso1wxi/image/upload/v1675919455/Logo/Copy_of_Zosh_Academy_nblljp.png"
@@ -26,7 +26,7 @@ function Navbar() {
               </span>
             </Link>
 
-            {/* Navigation menu */}
+            {/* Navigation menu for each section */}
             <ul className="hidden md:flex items-center space-x-4">
               <li>
                 <Link

@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-//do something bro about this project
+//do something bro about this project Priority first
 @SpringBootApplication
 public class EcommerceWebAppApplication {
 

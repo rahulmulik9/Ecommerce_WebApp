@@ -339,6 +339,7 @@ export default function Product() {
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
                 {/* Filters */}
                 <form className="hidden lg:block border rounded-md p-5">
+                  {/*Option for filter such as colour, size, Price, dscountrange */}
                   {filters.map((section) => (
                     <Disclosure
                       // defaultOpen={false}

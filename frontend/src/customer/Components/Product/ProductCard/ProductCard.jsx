@@ -12,6 +12,8 @@ const ProductCard = ({ product }) => {
     navigate(`/product/${product?.id || product?._id || 2}`)
   }
 
+
+  /*This is page for one simple product information  */
   return (
    <div onClick={handleNavigate} className='productCard w-[15rem] border m-3 transition-all cursor-pointer '>
     <div className='h-[20rem]'>

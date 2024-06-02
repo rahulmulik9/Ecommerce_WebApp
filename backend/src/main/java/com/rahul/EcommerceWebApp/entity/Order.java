@@ -1,7 +1,7 @@
 package com.rahul.EcommerceWebApp.entity;
 
 
-import com.zosh.user.domain.OrderStatus;
+import com.rahul.EcommerceWebApp.domain.OrderStatus;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;

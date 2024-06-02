@@ -1,7 +1,7 @@
 package com.rahul.EcommerceWebApp.entity;
 
-import com.zosh.user.domain.PaymentMethod;
-import com.zosh.user.domain.PaymentStatus;
+import com.rahul.EcommerceWebApp.domain.PaymentMethod;
+import com.rahul.EcommerceWebApp.domain.PaymentStatus;
 
 public class PaymentDetails {
 	

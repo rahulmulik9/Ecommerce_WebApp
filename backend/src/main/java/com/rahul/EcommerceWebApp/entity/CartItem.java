@@ -34,7 +34,7 @@ public class CartItem {
 	}
 
 	public CartItem(Long id, Cart cart, Product product, String size, int quantity, Integer price, Long userId) {
-		super();
+		super();      // Calls the constructor of the immediate superclass, which is Object in this case.
 		this.id = id;
 		this.cart = cart;
 		this.product = product;

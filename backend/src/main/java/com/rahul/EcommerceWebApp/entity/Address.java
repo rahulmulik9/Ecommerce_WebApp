@@ -43,7 +43,7 @@ public class Address {
 
     public Address(Long id, String firstName, String lastName, String streetAddress, String city, String state,
                    String zipCode, User user, String mobile) {
-        super();
+        super(); // Calls the constructor of the immediate superclass, which is Object in this case.
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
